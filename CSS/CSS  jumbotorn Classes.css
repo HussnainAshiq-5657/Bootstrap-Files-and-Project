@@ -1,0 +1,7 @@
+.container{
+    border: 5px solid black;
+}
+#jum-second{
+    background: url(../Picture/banner.jpg) no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="CSS/CSS Form Classes.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="py-3 text-center">Bootstrap Form Classes</h2>
+        <div class="row py-3">
+         <div class="col-md-6">
+            <div class="form-group">
+                <label for="" class="pb-2">First Name</label>
+                <input type="text" class=" form-control p-2 mb-2"/>
+            </div>
+            <div class="form-group">
+                <label for="" class="pb-2">E-mail</label>
+                <input type="text" value="hussnainnaz18@gmail.com" class="form-control-plaintext p-2 mb-2" readonly/>
+            </div>
+            <div class="form-group">
+                <label for="" class="pb-2">Password</label>
+                <input type="password" class="form-control mb-1 p-1"/>
+                <small class="form-text text-muted">
+                    Your password must be 8-20 characters! 
+                </small>
+            </div>
+            <div class="form-group">
+                <label for="" class="mb-1">Country</label>
+                <select name="" id="" class="form-control mb-2 p-2">
+                    <option value="">Pakistan</option>
+                    <option value="">Australia</option>
+                    <option value="">England</option>
+                    <option value="">America</option>
+                    <option value="">Canada</option>
+                    <option value="">India</option>
+                    <option value="">Nepal</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="" class="mb-1">Message</label>
+                <textarea name="" id="" class="form-control"></textarea>
+            </div>
+         </div>
+         <div class="col-md-6">
+            <div class="form-group">
+                <label>Upload Image</label>
+                <br>
+                <input type="file" class="form-control-file mb-4"/>
+            </div>
+            <div class="form-group">
+                <label>Amount</label>
+                <input type="range" class="form-control-range mb-4"/>
+            </div>
+            <div class="form-group">
+                <label>Hobbies</label>
+                <div class="form-check">
+                    <label for="sports" class="form-check-label">Sports</label>
+                    <input type="checkbox" class="form-check-input"/>
+                </div>
+                <div class="form-check">
+                    <label for="sports" class="form-check-label">Cricket</label>
+                    <input type="checkbox" class="form-check-input"/>
+                </div>
+                <div class="form-check">
+                    <label for="sports" class="form-check-label mb-4">Music</label>
+                    <input type="checkbox" class="form-check-input"/>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>Gender</label>
+                <div class="form-check">
+                    <label for="Maleradio" class="form-check-label">Male</label>
+                    <input type="radio" class="form-check-input"name="gender" id="Maleradio"/>
+                </div>
+                <div class="form-check">
+                    <label for="Femaleradio" class="form-check-label">Female</label>
+                    <input type="radio" class="form-check-input" name="gender" id="Femaleradio"/>
+                </div>
+            </div>
+         </div>
+        </div>
+    </div>
+</body>
+</html>
